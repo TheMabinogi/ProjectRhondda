@@ -1,0 +1,33 @@
+{
+  "default_ranks": {
+    "player": "player",
+    "op": "op"
+  },
+  "ranks": {
+    "player": {
+      "parent": "builtin_player",
+      "permissions": [
+        "-ftbu.claims.allow_disable_explosions",
+        "-command.ftb.spawn",
+        "-command.ftb.warp"
+      ],
+      "config": {
+        "ftbu.claims.max_chunks": 200,
+        "ftbu.chunkloader.max_chunks": 100,
+        "ftbu.homes.max": 0
+      }
+    },
+    "op": {
+      "parent": "builtin_op",
+      "syntax": "<&2$name&r> ",
+      "permissions": [
+        "-ftbu.claims.allow_disable_explosions"
+      ],
+      "config": {
+        "ftbu.claims.max_chunks": 500,
+        "ftbu.chunkloader.max_chunks": 500,
+        "ftbu.homes.max": 1
+      }
+    }
+  }
+}
