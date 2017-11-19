@@ -11,3 +11,9 @@ options.txt
 realms_persistence.json
 usercache.json
 usernamecache.json
+/config/splash.properties
+/journeymap/journeymap.log
+/journeymap
+/local/ftbutilities/all_permissions_full_list.txt
+/local/ftbutilities/all_configs.html
+/local/ftbutilities/all_permissions.html
